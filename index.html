@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Общая страница</title>
+    <style>
+        :root {
+            --bg0: #282828;
+            --bg1: #3c3836;
+            --fg: #ebdbb2;
+            --gray: #928374;
+            --red: #fb4934;
+            --green: #b8bb26;
+            --yellow: #fabd2f;
+            --blue: #83a598;
+            --purple: #d3869b;
+            --aqua: #8ec07c;
+            --orange: #fe8019;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0 auto;
+            max-width: 500px;
+            padding: 30px;
+            line-height: 1.6;
+            background-color: var(--bg0);
+        }
+
+        h1 {
+            color: var(--fg);
+            padding-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--bg1);
+        }
+
+        .btn {
+            background-color: var(--bg1);
+            color: var(--fg);
+            border: 1px solid var(--fg);
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 12px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--blue);
+        }
+
+        .center-style {
+            background: var(--bg1);
+            margin-bottom: 12px;
+            padding: 15px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 4px solid var(--gray);
+            transition: transform 0.2s;
+        }
+
+        .center-style:hover {
+            transform: translateX(5px);
+            border-left-color: var(--blue);
+        }
+
+        .tg-color:hover { background: var(--blue); }
+        .gh-color:hover { background: var(--purple); }
+
+        .btn-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: var(--bg2);
+            border-radius: 30px;
+            color: var(--fg);
+            font-weight: bold;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+
+        .btn-link:hover {
+            transform: scale(1.05);
+            color: var(--bg0);
+            text-decoration: none;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Главная страница</h1>
+    <div class="center-style">
+        <a href="https://flat447.github.io/mtproto-proxy-list" class="btn">Список прокси MTProto</a>
+    </div>
+    <div class="center-style">
+        <a href="https://flat447.github.io/vpn-help" class="btn">Настройка VPN</a>
+    </div>
+    <div class="social-links">
+        <a href="https://t.me/flat447" class="btn-link tg-color" target="_blank">Telegram</a>
+        <a href="https://github.com/Flat447" class="btn-link gh-color" target="_blank">GitHub</a>
+    </div>
+</body>
+</html>
