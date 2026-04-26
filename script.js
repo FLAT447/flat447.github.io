@@ -61,21 +61,15 @@ function move() {
     frame = requestAnimationFrame(move);
 }
 
-// Инициализация
 function init() {
     elements = document.querySelectorAll('.ball1, .ball2');
     move();
 }
 
-// Очистка
 function destroy() {
     if (frame) {
         cancelAnimationFrame(frame);
     }
 }
 
-// Запуск при загрузке DOM
 document.addEventListener('DOMContentLoaded', init);
-
-// Для использования в модулях можно экспортировать как:
-// export { init, destroy };
