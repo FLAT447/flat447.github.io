@@ -2,6 +2,7 @@
 const translations = {
   ru: {
     projects: 'Проекты',
+    github_profile: 'Мой GitHub',
     socials: 'Соц. сети',
     interests: 'Интересы',
     support: 'Поддержать автора',
@@ -26,6 +27,7 @@ const translations = {
   },
   en: {
     projects: 'Projects',
+    github_profile: 'My GitHub',
     socials: 'Socials',
     interests: 'Interests',
     support: 'Support the author',

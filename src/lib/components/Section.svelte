@@ -1,5 +1,5 @@
 <script>
-  let { title, children } = $props();
+  let { title, action = undefined, children } = $props();
 </script>
 
 <section class="mb-12">
@@ -7,6 +7,9 @@
     <span class="text-primary">#</span>
     <span>{title}</span>
     <span class="h-1 flex-1 rounded-full bg-surface-container-high"></span>
+    {#if action}
+      {@render action()}
+    {/if}
   </h2>
   {@render children()}
 </section>

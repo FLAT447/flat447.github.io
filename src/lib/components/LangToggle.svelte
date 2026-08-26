@@ -4,7 +4,7 @@
 
 <button
   onclick={() => setLocale(getLocale() === 'ru' ? 'en' : 'ru')}
-  class="relative inline-flex h-8 w-16 items-center rounded-full border border-border bg-surface-container-highest text-xs font-medium backdrop-blur transition hover:border-primary"
+  class="relative inline-flex h-7 w-16 items-center rounded-full border border-border bg-surface-container-highest text-xs font-medium backdrop-blur transition hover:border-primary"
   role="switch"
   aria-checked={getLocale() === 'en'}
   aria-label="Language"
