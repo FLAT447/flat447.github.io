@@ -21,7 +21,7 @@
   });
 </script>
 
-<div class="terminal rounded-xl border border-border bg-term-bg shadow-2xl">
+<div class="terminal rounded-3xl border border-border bg-term-bg elev-2">
   <div class="flex items-center gap-2 border-b border-border px-4 py-2.5">
     <span class="h-3 w-3 rounded-full bg-red"></span>
     <span class="h-3 w-3 rounded-full bg-yellow"></span>

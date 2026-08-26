@@ -14,12 +14,12 @@
   }
 </script>
 
-<div class="flex items-center gap-3 rounded-xl border border-border bg-surface/60 p-3">
-  <span class="min-w-32 shrink-0 text-base font-bold text-yellow">{item.label}</span>
+<div class="flex items-center gap-3 rounded-2xl border border-border bg-surface-container-high p-3">
+  <span class="min-w-32 shrink-0 text-base font-bold text-tertiary">{item.label}</span>
   <code class="flex-1 truncate text-sm text-muted sm:text-base" title={item.address}>{item.address}</code>
   <button
     onclick={copy}
-    class="shrink-0 rounded-md border border-border px-3 py-1.5 text-xs text-fg transition hover:border-green hover:text-green"
+    class="shrink-0 rounded-full bg-primary-container px-5 py-2 text-sm font-medium text-on-primary-container transition hover:bg-primary hover:text-on-primary"
     aria-label="Копировать {item.label} адрес"
   >
     {copied ? t('copied') : t('copy')}

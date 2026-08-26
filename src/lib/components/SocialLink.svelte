@@ -17,7 +17,7 @@
   href={social.href}
   target="_blank"
   rel="noopener noreferrer"
-  class="flex items-center gap-3 rounded-xl border border-border bg-surface/60 px-4 py-3 text-fg transition hover:border-purple hover:text-purple"
+  class="flex items-center gap-3 rounded-2xl border border-border bg-surface-container-high px-5 py-4 text-fg transition hover:border-tertiary hover:text-tertiary hover:bg-tertiary/10"
 >
   <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
     <path d={path} />

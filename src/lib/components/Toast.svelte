@@ -19,7 +19,7 @@
 </script>
 
 <div
-  class="fixed left-1/2 top-4 z-50 -translate-x-1/2 rounded-lg border border-border bg-surface px-4 py-2.5 text-sm font-medium text-fg shadow-2xl
+  class="fixed left-1/2 top-4 z-50 -translate-x-1/2 rounded-2xl border border-border bg-surface-container-highest px-5 py-3 text-sm font-medium text-fg elev-2
     {phase === 'show'
     ? 'translate-y-0 opacity-100'
     : phase === 'exit'

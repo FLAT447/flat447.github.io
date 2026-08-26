@@ -35,8 +35,8 @@
 <Section title={t('interests')}>
   <div class="grid gap-4 sm:grid-cols-2">
     {#each interests as interest}
-      <div class="rounded-xl border border-border bg-surface/60 p-5">
-        <h3 class="text-xl font-bold text-orange">{t(interest.titleKey)}</h3>
+      <div class="rounded-3xl border border-border bg-surface-container-high p-6">
+        <h3 class="text-2xl font-bold text-orange">{t(interest.titleKey)}</h3>
         <p class="mt-2 text-base text-muted">{t(interest.textKey)}</p>
       </div>
     {/each}
