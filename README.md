@@ -63,4 +63,4 @@ src/
 
 ## Лицензия
 
-См. файл `LICENSE`.
+См. файл [`LICENSE`](LICENSE).
