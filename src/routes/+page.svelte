@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-  <title>FLAT447 — Alexey</title>
+  <title>FLAT447</title>
 </svelte:head>
 
 <div class="mb-8 sm:mb-12">
