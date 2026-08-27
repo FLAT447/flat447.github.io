@@ -36,7 +36,7 @@
     </div>
 
     {#if showOutput}
-      <div class="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
+      <div class="mt-1 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
         <pre class="select-none overflow-x-auto text-aqua text-[13px] leading-tight sm:text-sm">{fastfetch.logoArt}</pre>
         <div class="min-w-0 text-base">
           {#each fastfetch.info as row}

@@ -48,6 +48,7 @@ export const fastfetch = {
 |_|   |_____/_/   \_\_|    |_|    |_|/_/
 `,
   info: [
+    { key: 'Nickname', value: 'FLAT447' },
     { key: 'Name', value: 'Alexey' },
     { key: 'Age', value: '14' },
     { key: 'Distro', value: 'Ximper Linux' }
