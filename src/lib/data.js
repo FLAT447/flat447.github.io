@@ -18,7 +18,8 @@ export const socials = [
   { labelKey: 'soc_tg_channel', href: 'https://t.me/flat447', icon: 'telegram' },
   { labelKey: 'soc_tiktok', href: 'https://tiktok.com/@flflat447', icon: 'tiktok' },
   { labelKey: 'soc_tg_pm', href: 'https://t.me/flflat', icon: 'telegram' },
-  { labelKey: 'soc_vk_pm', href: 'https://vk.ru/alexey20082012', icon: 'vk' }
+  { labelKey: 'soc_vk_pm', href: 'https://vk.ru/alexey20082012', icon: 'vk' },
+  { labelKey: 'soc_openvk', href: 'https://openvk.org/id43527', icon: 'openvk' }
 ];
 
 export const interests = [
