@@ -4,7 +4,6 @@ const translations = {
     projects: 'Проекты',
     github_profile: 'Мой GitHub',
     socials: 'Соц. сети',
-    interests: 'Интересы',
     support: 'Поддержать',
     copy: 'Копировать',
     copied: '✓',
@@ -22,16 +21,11 @@ const translations = {
     soc_tg_pm: 'Telegram ЛС',
     soc_vk_pm: 'VK ЛС',
     soc_openvk: 'OpenVK ЛС',
-    int_distro_title: 'Дистрохоппинг',
-    int_distro_text: 'Чуть больше года, началось с Fedora 42.',
-    int_rice_title: 'Райсинг',
-    int_rice_text: 'Любимый WM — Hyprland.'
   },
   en: {
     projects: 'Projects',
     github_profile: 'My GitHub',
     socials: 'Socials',
-    interests: 'Interests',
     support: 'Support',
     copy: 'Copy',
     copied: '✓',
@@ -49,10 +43,6 @@ const translations = {
     soc_tg_pm: 'Telegram DM',
     soc_vk_pm: 'VK DM',
     soc_openvk: 'OpenVK DM', 
-    int_distro_title: 'Distrohopping',
-    int_distro_text: 'A bit over a year, started with Fedora 42.',
-    int_rice_title: 'Ricing',
-    int_rice_text: 'Favorite WM — Hyprland.'
   }
 };
 

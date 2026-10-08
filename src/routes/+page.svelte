@@ -4,7 +4,7 @@
   import ProjectCard from '$lib/components/ProjectCard.svelte';
   import SocialLink from '$lib/components/SocialLink.svelte';
   import CopyRow from '$lib/components/CopyRow.svelte';
-  import { projects, socials, interests, crypto } from '$lib/data.js';
+  import { projects, socials, crypto } from '$lib/data.js';
   import { t } from '$lib/i18n.svelte.js';
 </script>
 
@@ -42,17 +42,6 @@
   <div class="grid gap-3 sm:grid-cols-2">
     {#each socials as social}
       <SocialLink {social} />
-    {/each}
-  </div>
-</Section>
-
-<Section title={t('interests')}>
-  <div class="grid gap-4 sm:grid-cols-2">
-    {#each interests as interest}
-      <div class="rounded-3xl border border-border bg-surface-container-high p-6">
-        <h3 class="text-2xl font-bold text-orange">{t(interest.titleKey)}</h3>
-        <p class="mt-2 text-base text-muted">{t(interest.textKey)}</p>
-      </div>
     {/each}
   </div>
 </Section>

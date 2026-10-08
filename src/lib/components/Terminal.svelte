@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { fastfetch } from '$lib/data.js';
 
-  const command = 'fastfetch';
+  const command = './show_profile.sh';
   let typed = $state('');
   let showOutput = $state(false);
 
@@ -26,7 +26,7 @@
     <span class="h-3 w-3 rounded-full bg-red"></span>
     <span class="h-3 w-3 rounded-full bg-yellow"></span>
     <span class="h-3 w-3 rounded-full bg-green"></span>
-    <span class="ml-2 text-xs text-muted">bash — fastfetch</span>
+    <span class="ml-2 text-xs text-muted">bash — ./show_profile.sh</span>
   </div>
 
   <div class="overflow-x-auto p-5 text-sm leading-relaxed font-mono">

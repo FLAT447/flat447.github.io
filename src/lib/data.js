@@ -27,17 +27,6 @@ export const socials = [
   { labelKey: 'soc_openvk', href: 'https://openvk.org/id43527', icon: 'openvk' }
 ];
 
-export const interests = [
-  {
-    titleKey: 'int_distro_title',
-    textKey: 'int_distro_text'
-  },
-  {
-    titleKey: 'int_rice_title',
-    textKey: 'int_rice_text'
-  }
-];
-
 export const crypto = [
   { label: 'TON', address: 'UQBRZI9s95gtehUkm_NESZ-HJOmhJlHn025uu_Uqn1xfhlCR' },
   { label: 'USDT (TRC20)', address: 'TUadZfsYhCsCEje852r4mWichUWvGcvY5E' },
@@ -56,7 +45,6 @@ export const fastfetch = {
   info: [
     { key: 'Nickname', value: 'FLAT447' },
     { key: 'Name', value: 'Alexey' },
-    { key: 'Age', value: '14' },
-    { key: 'Distro', value: 'Ximper Linux' }
+    { key: 'Age', value: '14' }
   ]
 };
