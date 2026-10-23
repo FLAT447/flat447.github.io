@@ -17,7 +17,7 @@
   <Terminal />
 </div>
 
-<Section title={t('projects')}>
+<Section id="projects" title={t('projects')}>
   {#snippet action()}
     <a
       href="https://github.com/FLAT447"
@@ -39,7 +39,7 @@
   </div>
 </Section>
 
-<Section title={t('music')}>
+<Section id="music" title={t('music')}>
   <div class="grid gap-3 sm:grid-cols-2">
     {#each artists as artist}
       <ArtistLink {artist} />
@@ -47,7 +47,7 @@
   </div>
 </Section>
 
-<Section title={t('socials')}>
+<Section id="socials" title={t('socials')}>
   <div class="grid gap-3 sm:grid-cols-2">
     {#each socials as social}
       <SocialLink {social} />
@@ -55,7 +55,7 @@
   </div>
 </Section>
 
-<Section title={t('support')}>
+<Section id="support" title={t('support')}>
   <div class="flex flex-col gap-3">
     {#each crypto as item}
       <CopyRow {item} />

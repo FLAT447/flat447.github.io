@@ -156,3 +156,11 @@ body {
   border-color: var(--archived-border);
   color: var(--archived-fg);
 }
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

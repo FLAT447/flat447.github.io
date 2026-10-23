@@ -1,8 +1,8 @@
 <script>
-  let { title, action = undefined, children } = $props();
+  let { id = undefined, title, action = undefined, children } = $props();
 </script>
 
-<section class="mb-12">
+<section {id} class="mb-12 scroll-mt-24">
   <h2 class="mb-6 flex items-center gap-3 text-3xl font-bold tracking-tight text-fg sm:text-4xl">
     <span class="text-primary">#</span>
     <span>{title}</span>
