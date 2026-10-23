@@ -3,6 +3,8 @@ const translations = {
   ru: {
     projects: 'Проекты',
     github_profile: 'Мой GitHub',
+    music: 'Музыка',
+    archived: 'Архивирован',
     socials: 'Соц. сети',
     support: 'Поддержать',
     copy: 'Копировать',
@@ -25,6 +27,8 @@ const translations = {
   en: {
     projects: 'Projects',
     github_profile: 'My GitHub',
+    music: 'Music',
+    archived: 'Archived',
     socials: 'Socials',
     support: 'Support',
     copy: 'Copy',

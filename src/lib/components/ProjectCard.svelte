@@ -4,7 +4,14 @@
 </script>
 
 <div class="flex h-full flex-col rounded-3xl border border-border bg-surface-container-high p-6 elev-1 transition hover:border-primary hover:bg-primary-container/30">
-  <h3 class="text-2xl font-bold text-tertiary">{project.name}</h3>
+  <div class="flex items-start justify-between gap-3">
+    <h3 class="text-2xl font-bold text-tertiary">{project.name}</h3>
+    {#if project.archived}
+      <span class="badge-archived shrink-0 rounded-full border px-3 py-1 text-xs font-medium uppercase tracking-wide">
+        {t('archived')}
+      </span>
+    {/if}
+  </div>
   <p class="mt-2 flex-1 text-base text-muted">{t(project.descKey)}</p>
   <div class="mt-4 flex flex-wrap gap-2">
     {#each project.links as link}

@@ -15,8 +15,22 @@ export const projects = [
   {
     name: 'OpenFlux Desktop',
     descKey: 'proj_openflux_desc',
+    archived: true,
     links: [{ labelKey: 'link_github', href: 'https://github.com/FLAT447/openflux-desktop' }]
   }
+];
+
+export const artists = [
+  { name: '17 SEVENTEEN', href: 'https://genius.com/artists/17-seventeen' },
+  { name: 'Sqwore', href: 'https://genius.com/artists/Sqwore' },
+  { name: 'rizza', href: 'https://genius.com/artists/Rizza' },
+  { name: 'Jane Air', href: 'https://genius.com/artists/Jane-air' },
+  { name: 'onokami', href: 'https://genius.com/artists/Onokami' },
+  { name: 'enveel', href: 'https://genius.com/artists/Enveel' },
+  { name: 'mzlff', href: 'https://genius.com/artists/Mzlff' },
+  { name: 'CMH', href: 'https://genius.com/artists/Cmh' },
+  { name: 'СТИНТ', href: 'https://genius.com/artists/The-stint' },
+  { name: 'lightprey', href: 'https://genius.com/artists/Lightprey' }
 ];
 
 export const socials = [
@@ -28,10 +42,10 @@ export const socials = [
 ];
 
 export const crypto = [
-  { label: 'TON', address: 'UQBRZI9s95gtehUkm_NESZ-HJOmhJlHn025uu_Uqn1xfhlCR' },
-  { label: 'USDT (TRC20)', address: 'TUadZfsYhCsCEje852r4mWichUWvGcvY5E' },
-  { label: 'ETH', address: '0x08DCB85468d46E1D48094d8945B762fCF6F3AD64' },
-  { label: 'BTC', address: 'bc1q485z2g5gan0qmdyrg2r672ua2tukk08ns92s56' }
+  { label: 'GRAM', address: 'UQDcw39JKVk4jufK_ASTLUhHT7Pi-13UVd8YLNG7GInYv9vB' },
+  { label: 'USDT (TRC20)', address: 'TYKB6JzwikHWhQteNhHjUtzirYC9pft5WW' },
+  { label: 'ETH', address: '0x415cA0538BFfE359eb9c8D4aEe50E88eA48a5712' },
+  { label: 'BTC', address: 'bc1qdp6swj406eg9jlx6j9hsj6g3er7cm2tr8efhgj' }
 ];
 
 export const fastfetch = {

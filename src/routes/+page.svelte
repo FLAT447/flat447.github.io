@@ -2,9 +2,10 @@
   import Terminal from '$lib/components/Terminal.svelte';
   import Section from '$lib/components/Section.svelte';
   import ProjectCard from '$lib/components/ProjectCard.svelte';
+  import ArtistLink from '$lib/components/ArtistLink.svelte';
   import SocialLink from '$lib/components/SocialLink.svelte';
   import CopyRow from '$lib/components/CopyRow.svelte';
-  import { projects, socials, crypto } from '$lib/data.js';
+  import { projects, artists, socials, crypto } from '$lib/data.js';
   import { t } from '$lib/i18n.svelte.js';
 </script>
 
@@ -34,6 +35,14 @@
   <div class="grid gap-4 sm:grid-cols-2">
     {#each projects as project}
       <ProjectCard {project} />
+    {/each}
+  </div>
+</Section>
+
+<Section title={t('music')}>
+  <div class="grid gap-3 sm:grid-cols-2">
+    {#each artists as artist}
+      <ArtistLink {artist} />
     {/each}
   </div>
 </Section>
