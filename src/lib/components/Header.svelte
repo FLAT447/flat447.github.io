@@ -22,7 +22,7 @@
     </a>
 
     <nav
-      class="no-scrollbar absolute left-1/2 -translate-x-1/2 flex items-center gap-1 overflow-x-auto px-2"
+      class="no-scrollbar -mx-1 flex min-w-0 flex-1 items-center gap-1 overflow-x-auto px-1 md:absolute md:left-1/2 md:mx-0 md:flex-none md:-translate-x-1/2 md:overflow-visible md:px-2"
       aria-label={t('sections')}
     >
       {#each links as link}
