@@ -30,7 +30,8 @@ export const artists = [
   { name: 'mzlff', href: 'https://genius.com/artists/Mzlff' },
   { name: 'CMH', href: 'https://genius.com/artists/Cmh' },
   { name: 'СТИНТ', href: 'https://genius.com/artists/The-stint' },
-  { name: 'lightprey', href: 'https://genius.com/artists/Lightprey' }
+  { name: 'lightprey', href: 'https://genius.com/artists/Lightprey' },
+  { name: 'Мегамозг', href: 'https://genius.com/artists/Megamozg' }
 ];
 
 export const socials = [
