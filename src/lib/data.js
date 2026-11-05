@@ -31,7 +31,9 @@ export const artists = [
   { name: 'CMH', href: 'https://genius.com/artists/Cmh' },
   { name: 'СТИНТ', href: 'https://genius.com/artists/The-stint' },
   { name: 'lightprey', href: 'https://genius.com/artists/Lightprey' },
-  { name: 'Мегамозг', href: 'https://genius.com/artists/Megamozg' }
+  { name: 'Мегамозг', href: 'https://genius.com/artists/Megamozg' },
+  { name: 'Locked23', href: 'https://genius.com/artists/Locked23'},
+  { name: 'нексюша', href: 'https://genius.com/artists/Neksusha' }
 ];
 
 export const socials = [
@@ -39,7 +41,7 @@ export const socials = [
   { labelKey: 'soc_tiktok', href: 'https://tiktok.com/@flflat447', icon: 'tiktok' },
   { labelKey: 'soc_tg_pm', href: 'https://t.me/flflat447', icon: 'telegram' },
   { labelKey: 'soc_vk_pm', href: 'https://vk.ru/alexey20082012', icon: 'vk' },
-  { labelKey: 'soc_openvk', href: 'https://openvk.org/id43527', icon: 'openvk' }
+  { labelKey: 'soc_openvk', href: 'https://openvk.org/flat447', icon: 'openvk' }
 ];
 
 export const crypto = [
