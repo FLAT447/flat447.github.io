@@ -11,12 +11,6 @@ export const projects = [
     name: 'DNS Benchmark',
     descKey: 'proj_dns_desc',
     links: [{ labelKey: 'link_github', href: 'https://github.com/FLAT447/DnsBenchmark' }]
-  },
-  {
-    name: 'OpenFlux Desktop',
-    descKey: 'proj_openflux_desc',
-    archived: true,
-    links: [{ labelKey: 'link_github', href: 'https://github.com/FLAT447/openflux-desktop' }]
   }
 ];
 
